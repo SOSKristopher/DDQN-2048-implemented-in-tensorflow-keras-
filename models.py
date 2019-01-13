@@ -29,7 +29,7 @@ def model_fn(state_shape, action_size):
 	x = BatchNormalization()(x)
 	x = Activation('relu')(x)
 
-	outputs = Dense(action_size, activation='softmax')(x)
+	outputs = Dense(action_size, activation='linear')(x)
 
 	model = Model(inputs, outputs)
 	model.compile(optimizer='adam', loss='logcosh', metrics=['accuracy'])
