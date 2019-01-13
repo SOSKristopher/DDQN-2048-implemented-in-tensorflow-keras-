@@ -1,4 +1,4 @@
-# DDQN-2048-implemented-in-tensorflow-keras-
+# DDQN-2048-implemented-in-tensorflow-keras
 implemented in tensorflow keras, but there has a problem here, maybe relevant to the judgement of game environment and definitely output activation
 # ddqn 2048
 using double q network for 2048 game, the structure using keras to model which only contains 150 lines less.
